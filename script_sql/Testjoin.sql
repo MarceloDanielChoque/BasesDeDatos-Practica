@@ -50,7 +50,7 @@ DROP TABLE IF EXISTS `edad`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `edad` (
   `empleado_idempleado` int NOT NULL,
-  `edad` int NOT NULL,
+  `fechaNacimiento` date NOT NULL,
   KEY `fk_EDAD_empleado1_idx` (`empleado_idempleado`),
   CONSTRAINT `fk_EDAD_empleado1` FOREIGN KEY (`empleado_idempleado`) REFERENCES `empleado` (`idempleado`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -60,9 +60,9 @@ CREATE TABLE `edad` (
 -- Dumping data for table `edad`
 --
 
-LOCK TABLES `edad` WRITE;
+LOCK TABLES `fechaNacimiento` WRITE;
 /*!40000 ALTER TABLE `edad` DISABLE KEYS */;
-INSERT INTO `edad` VALUES (1,40),(2,30),(3,21),(6,20);
+INSERT INTO `fechaNacimiento` VALUES ("2000-02-02"),("2001-01-01");
 /*!40000 ALTER TABLE `edad` ENABLE KEYS */;
 UNLOCK TABLES;
 
