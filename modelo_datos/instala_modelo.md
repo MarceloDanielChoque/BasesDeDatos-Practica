@@ -10,4 +10,4 @@
 
 [5] Deberiamos ver algo asi: 
 
-<img src="https://github.com/MarceloDanielChoque/imagenes/blob/main/img/testjoin.png">
+<img src="https://github.com/MarceloDanielChoque/imagenes/blob/main/img/testjoin2.png">
