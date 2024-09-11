@@ -6,8 +6,8 @@
 
 [3] Realizada la configuracion previa [video](https://www.youtube.com/watch?v=GQj0XpjQK4E)
 
-[4] Pinchamos en FILE > OPEN SCRIPT > RUN ALL (icono del rayo)
+[4] Pinchamos en FILE > OPEN MODEL > SELECCIONAR EL ARCHIVO DESCARGADO
 
 [5] Deberiamos ver algo asi: 
 
-<img src="https://github.com/MarceloDanielChoque/imagenes/blob/main/img/IMAGENPARAEXAMEN.png">
+<img src="https://github.com/MarceloDanielChoque/imagenes/blob/main/img/testjoin.png">
